@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Like {
+public class Likes {
     @EmbeddedId
     private LikeId id;
     @ManyToOne(cascade = CascadeType.ALL,fetch = FetchType.EAGER)

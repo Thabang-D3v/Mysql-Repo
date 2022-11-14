@@ -30,7 +30,11 @@ public class User {
     @ToString.Exclude
     private List<Comment>comments;
     @OneToMany(mappedBy = "photo",orphanRemoval = true)
-    private List<Like>likes;
+    @ToString.Exclude
+    private List<Likes>likes;
+    @OneToMany(mappedBy = "follower")
+    @ToString.Exclude
+    private List<Follow>follows;
 
     @Override
     public boolean equals(Object o) {

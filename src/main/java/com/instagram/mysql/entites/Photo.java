@@ -29,7 +29,7 @@ public class Photo {
     private List<Comment>comments;
     @OneToMany(mappedBy = "photo",orphanRemoval = true)
     @ToString.Exclude
-    private List<Like>likes;
+    private List<Likes>likes;
     private String caption;
     @ManyToMany(cascade = CascadeType.ALL)
     @ToString.Exclude

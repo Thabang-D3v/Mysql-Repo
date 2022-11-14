@@ -1,0 +1,22 @@
+server:
+  servlet:
+    contextPath: /sql/v1
+  port: 8000
+  error:
+    include-message: always
+    include-binding: always
+spring:
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    initialization-mode: always
+    password: mySQLpass123_
+    url: jdbc:mysql://127.0.0.1:3306/demoSql
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
