@@ -6,9 +6,9 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-SONAR_TOKEN: b4f46c920e3f62cac2ca5894a08a8eaaf6b8be0d
+SONAR_TOKEN: f30328abb63686837145e8bb3994b6509d3cff49
 sonar:
-  projectKey: Thabang-D3v_FormidexProject
+  projectKey: Thabang-D3v_Mysql-Repo
   organization: thabang-d3v
 
 #  mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar  -Dsonar.projectKey=Thabang-D3v_FormidexProject -Dsonar.organization=thabang-d3v -Dsonar.sources=src -Dsonar.language=java -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=b4f46c920e3f62cac2ca5894a08a8eaaf6b8be0d
