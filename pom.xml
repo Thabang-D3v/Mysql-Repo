@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.formidex</groupId>
-	<artifactId>FormidexProject</artifactId>
+	<artifactId>Thabang-D3v_Mysql-Repo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>FormidexProject</name>
+	<name>Thabang-D3v_Mysql-Repo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
