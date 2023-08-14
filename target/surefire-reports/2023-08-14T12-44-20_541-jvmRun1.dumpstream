@@ -1,0 +1,237 @@
+# Created at 2023-08-14T12:44:30.306
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+# Created at 2023-08-14T12:44:31.622
+Unexpected IOException with stream: 
+
+
+# Created at 2023-08-14T12:44:31.626
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2023-08-14T12:44:31.629
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2023-08-14T12:44:31.633
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2023-08-14T12:44:31.636
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2023-08-14T12:44:31.639
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2023-08-14T12:44:31.646
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2023-08-14T12:44:31.655
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.3)
+
+
+# Created at 2023-08-14T12:44:31.657
+Unexpected IOException with stream: 
+
+
+# Created at 2023-08-14T12:44:32.023
+Unexpected IOException with stream: 2023-08-14 12:44:32.016  INFO 6796 --- [           main] com.formidex.FormidexApplicationTests    : Starting FormidexApplicationTests using Java 11.0.19 on DESKTOP-GATBJDQ with PID 6796 (started by Precision 7520 in C:\Users\Precision 7520\IdeaProjects\Mysql-Repo)
+
+
+# Created at 2023-08-14T12:44:32.032
+Unexpected IOException with stream: 2023-08-14 12:44:32.028  INFO 6796 --- [           main] com.formidex.FormidexApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+
+
+# Created at 2023-08-14T12:44:32.269
+Unexpected IOException with stream: 2023-08-14 12:44:32.266  WARN 6796 --- [           main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 5:12]
+
+
+# Created at 2023-08-14T12:44:59.190
+Unexpected IOException with stream: 2023-08-14 12:44:59.187  INFO 6796 --- [           main] com.formidex.FormidexApplicationTests    : Started FormidexApplicationTests in 29.501 seconds (JVM running for 36.454)
+
+
+# Created at 2023-08-14T12:44:59.289
+Unexpected IOException: 5,1,com.formidex.FormidexApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-08-14T12:45:01.290
+Unexpected IOException: 6,1,com.formidex.FormidexApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2023-08-14T12:45:01.302
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.formidex.FormidexApplicationTests,null,null,null
+
+
+# Created at 2023-08-14T12:45:01.309
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.formidex.service.FormidexServiceTest,null,null,null
+
+
+# Created at 2023-08-14T12:45:01.336
+Unexpected IOException with stream: 2023-08-14 12:45:01.334  INFO 6796 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.formidex.service.FormidexServiceTest], using SpringBootContextLoader
+
+
+# Created at 2023-08-14T12:45:01.344
+Unexpected IOException with stream: 2023-08-14 12:45:01.341  INFO 6796 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.formidex.service.FormidexServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2023-08-14T12:45:01.347
+Unexpected IOException with stream: 2023-08-14 12:45:01.345  INFO 6796 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.formidex.service.FormidexServiceTest]: FormidexServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2023-08-14T12:45:01.494
+Unexpected IOException with stream: 2023-08-14 12:45:01.491  INFO 6796 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.formidex.FormidexApplication for test class com.formidex.service.FormidexServiceTest
+
+
+# Created at 2023-08-14T12:45:01.499
+Unexpected IOException with stream: 2023-08-14 12:45:01.497  INFO 6796 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2023-08-14T12:45:01.508
+Unexpected IOException with stream: 2023-08-14 12:45:01.504  INFO 6796 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@535a6697, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@641bc9a8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1d40f597, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@20960b51, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2078bf0a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a947424, org.springframework.test.context.event.EventPublishingTestExecutionListener@62d6ac, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@103e9972, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75dbe490, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4c579b5b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5a96f3cb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3e0704e2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@14d298d6]
+
+
+# Created at 2023-08-14T12:45:01.636
+Unexpected IOException with stream: 
+
+
+# Created at 2023-08-14T12:45:01.638
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2023-08-14T12:45:01.640
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2023-08-14T12:45:01.643
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2023-08-14T12:45:01.645
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2023-08-14T12:45:01.648
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2023-08-14T12:45:01.650
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2023-08-14T12:45:01.652
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.3)
+
+
+# Created at 2023-08-14T12:45:01.654
+Unexpected IOException with stream: 
+
+
+# Created at 2023-08-14T12:45:01.675
+Unexpected IOException with stream: 2023-08-14 12:45:01.672  INFO 6796 --- [           main] c.formidex.service.FormidexServiceTest   : Starting FormidexServiceTest using Java 11.0.19 on DESKTOP-GATBJDQ with PID 6796 (started by Precision 7520 in C:\Users\Precision 7520\IdeaProjects\Mysql-Repo)
+
+
+# Created at 2023-08-14T12:45:01.679
+Unexpected IOException with stream: 2023-08-14 12:45:01.676  INFO 6796 --- [           main] c.formidex.service.FormidexServiceTest   : No active profile set, falling back to 1 default profile: "default"
+
+
+# Created at 2023-08-14T12:45:01.690
+Unexpected IOException with stream: 2023-08-14 12:45:01.688  WARN 6796 --- [           main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 5:12]
+
+
+# Created at 2023-08-14T12:45:07.758
+Unexpected IOException with stream: 2023-08-14 12:45:07.755  INFO 6796 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2023-08-14T12:45:07.768
+Unexpected IOException with stream: 2023-08-14 12:45:07.764  INFO 6796 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2023-08-14T12:45:07.777
+Unexpected IOException with stream: 2023-08-14 12:45:07.773  INFO 6796 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+
+
+# Created at 2023-08-14T12:45:08.729
+Unexpected IOException with stream: 2023-08-14 12:45:08.724  INFO 6796 --- [           main] c.formidex.service.FormidexServiceTest   : Started FormidexServiceTest in 7.208 seconds (JVM running for 45.991)
+
+
+# Created at 2023-08-14T12:45:08.773
+Unexpected IOException: 5,1,com.formidex.service.FormidexServiceTest,getAverageExchangeRate,null,null,null
+
+
+# Created at 2023-08-14T12:45:10.867
+Unexpected IOException with stream: <404 NOT_FOUND Not Found,ResponseDTO(code=404, message=No references found on the specified date range, response=[]),[]>
+
+# Created at 2023-08-14T12:45:10.869
+Unexpected IOException with stream: 
+
+
+# Created at 2023-08-14T12:45:10.879
+Unexpected IOException: 6,1,com.formidex.service.FormidexServiceTest,getAverageExchangeRate,null,null,null
+
+
+# Created at 2023-08-14T12:45:10.886
+Unexpected IOException: 5,1,com.formidex.service.FormidexServiceTest,getHighestExchangeRate,null,null,null
+
+
+# Created at 2023-08-14T12:45:11.723
+Unexpected IOException with stream: <200 OK OK,ResponseDTO(code=404, message=No references found on the specified date range, response=[]),[]>
+
+# Created at 2023-08-14T12:45:11.726
+Unexpected IOException with stream: 
+
+
+# Created at 2023-08-14T12:45:11.734
+Unexpected IOException: 6,1,com.formidex.service.FormidexServiceTest,getHighestExchangeRate,null,null,null
+
+
+# Created at 2023-08-14T12:45:11.739
+Unexpected IOException: 5,1,com.formidex.service.FormidexServiceTest,convertMoney,null,null,null
+
+
+# Created at 2023-08-14T12:45:12.477
+Unexpected IOException with stream: 2023-08-14 12:45:12.400  INFO 6796 --- [           main] com.formidex.service.FormidexService     : Exchange rates not found for the specified date, request: ConvertDTO(date=2023-08-13, source=SGD, destination=LTL, amount=0.07187355372453097)  response:ResponseDTO(code=200, message=Exchange rates not found for the specified date, response=[])
+
+
+# Created at 2023-08-14T12:45:12.481
+Unexpected IOException with stream: <200 OK OK,ResponseDTO(code=200, message=Exchange rates not found for the specified date, response=[]),[]>
+
+# Created at 2023-08-14T12:45:12.484
+Unexpected IOException with stream: 
+
+
+# Created at 2023-08-14T12:45:12.495
+Unexpected IOException: 6,1,com.formidex.service.FormidexServiceTest,convertMoney,null,null,null
+
+
+# Created at 2023-08-14T12:45:12.502
+Unexpected IOException: 5,1,com.formidex.service.FormidexServiceTest,retrieveByDate,null,null,null
+
+
+# Created at 2023-08-14T12:45:13.531
+Unexpected IOException with stream: 2023-08-14 12:45:13.167  INFO 6796 --- [           main] com.formidex.service.FormidexService     : The request to retrieve data was a success, request: DateDTO(date=2023-08-08)  response:ResponseDTO(code=200, message=Data retrieved successfully, response=Forex(date=2023-08-08, uSD=1.0944, jPY=156.55, bGN=1.9558, cYP=N/A, cZK=24.24, dKK=7.4515, eEK=N/A, gBP=0.86158, hUF=388.5, lTL=N/A, lVL=N/A, mTL=N/A, pLN=4.45, rOL=N/A, rON=4.9498, sEK=11.744, sIT=N/A, sKK=N/A, cHF=0.96, iSK=144.9, nOK=11.295, hRK=N/A, rUB=N/A, tRL=N/A, tRY=29.5716, aUD=1.6827, bRL=5.397, cAD=1.4755, cNY=7.895, hKD=8.5491, iDR=16665.11, iLS=4.055, iNR=90.6614, kRW=1444.82, mXN=18.8176, mYR=5.0151, nZD=1.8116, pHP=61.747, sGD=1.4766, tHB=38.348, zAR=20.687))
+
+
+# Created at 2023-08-14T12:45:13.534
+Unexpected IOException with stream: <200 OK OK,ResponseDTO(code=200, message=Data retrieved successfully, response=Forex(date=2023-08-08, uSD=1.0944, jPY=156.55, bGN=1.9558, cYP=N/A, cZK=24.24, dKK=7.4515, eEK=N/A, gBP=0.86158, hUF=388.5, lTL=N/A, lVL=N/A, mTL=N/A, pLN=4.45, rOL=N/A, rON=4.9498, sEK=11.744, sIT=N/A, sKK=N/A, cHF=0.96, iSK=144.9, nOK=11.295, hRK=N/A, rUB=N/A, tRL=N/A, tRY=29.5716, aUD=1.6827, bRL=5.397, cAD=1.4755, cNY=7.895, hKD=8.5491, iDR=16665.11, iLS=4.055, iNR=90.6614, kRW=1444.82, mXN=18.8176, mYR=5.0151, nZD=1.8116, pHP=61.747, sGD=1.4766, tHB=38.348, zAR=20.687)),[]>
+
+# Created at 2023-08-14T12:45:13.536
+Unexpected IOException with stream: 
+
+
+# Created at 2023-08-14T12:45:13.544
+Unexpected IOException: 6,1,com.formidex.service.FormidexServiceTest,retrieveByDate,null,null,null
+
+
+# Created at 2023-08-14T12:45:13.548
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.formidex.service.FormidexServiceTest,null,null,null
+
+
